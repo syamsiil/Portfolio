@@ -3,8 +3,7 @@ function toggleDetail(e){
 
     if($(target).hasClass("active")){
         $(target).html("More Info").removeClass("active")
-    }
-    else{
+    } else {
         $(target).html("Less Info"). addClass("active")
     }
 
