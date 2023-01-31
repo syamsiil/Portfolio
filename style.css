@@ -32,6 +32,11 @@ section::before{
     box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.25);
 }
 
+.nav-link:hover{
+    font-weight: bold;
+
+}
+
 .home h1 {
     font-size: 72px;
 }
@@ -146,9 +151,6 @@ section::before{
     font-weight: 700;
 }
 
-#img-sosmed {
-    justify-content: center;
-}
 
 @media only screen and (max-width: 768px) {
     .home img {
