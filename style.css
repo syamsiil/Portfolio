@@ -146,6 +146,10 @@ section::before{
     font-weight: 700;
 }
 
+#img-sosmed {
+    justify-content: center;
+}
+
 @media only screen and (max-width: 768px) {
     .home img {
         width: 50%;
